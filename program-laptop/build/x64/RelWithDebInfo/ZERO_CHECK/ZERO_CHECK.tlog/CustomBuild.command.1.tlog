@@ -1,0 +1,10 @@
+^D:\CMAKE_JSON\TASK-4-CMAKE\BUILD\CMAKEFILES\C2ECB6F4F3887D2034604CDBCB2151D1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/CMAKE_JSON/task-4-cmake -BD:/CMAKE_JSON/task-4-cmake/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/CMAKE_JSON/task-4-cmake/build/BridgeApp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

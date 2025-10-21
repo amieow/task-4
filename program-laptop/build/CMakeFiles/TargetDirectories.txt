@@ -1,0 +1,3 @@
+D:/CMAKE_JSON/task-4-cmake/build/CMakeFiles/BridgeApp.dir
+D:/CMAKE_JSON/task-4-cmake/build/CMakeFiles/ALL_BUILD.dir
+D:/CMAKE_JSON/task-4-cmake/build/CMakeFiles/ZERO_CHECK.dir
