@@ -48,7 +48,7 @@ Laptop mengirimkan data ke Bridge menggunakan format paket yang ketat:
 
 * **Perintah `PARSE_FILE` (0x02):**
     * Struktur: `[CMD] [FileName]`
-    * `[CMD]`: `0x04` (Perintah `PARSE_BY_INDEX`)
+    * `[CMD]`: `0x02` (Perintah `PARSE_FILE`)
     * `[FileName]`: Nama file tujuan beserta extensionnya.
 
 ---
